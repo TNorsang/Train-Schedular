@@ -1,7 +1,27 @@
-header {
-    padding: 10px;
-    color: white;
-    background-color: brown;
-    height: 20vh;
+/* ----------- Global -------------- */
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    outline: 0;
+    vertical-align: baseline;
 }
 
+/* ---------- Header Section ------------- */
+
+header {
+    font-size: 4vh;
+    text-align: center;
+    padding: 4% 0% 18% 0%;
+    color: white;
+    background-color: brown;
+    height: 19vh;
+}
+
+.head {
+    font-weight: bold;
+    background-color: rgb(27, 120, 207);
+    color: white;
+}
