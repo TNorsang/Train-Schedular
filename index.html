@@ -18,17 +18,24 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- Firebase Javascript link -->
     <script src="https://www.gstatic.com/firebasejs/5.7.3/firebase.js"></script>
+    <!-- Google Font Link -->
+    <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline" rel="stylesheet">
+
 </head>
 
 <body>
     <div class="container">
+
+        <!-- The Logo and Head Text -->
+        <div class="headerText" >
         <header>
-            <p id="first"> Anytime is Train Time </p>
-            <p id="second">Choo Choo. Chee Chee.</p>
+            <img src="assets/images/train.gif" id="logoImage" alt="logo">
+            <p id="first"> Train Scheduler </p>
         </header>
-
+        </div>
         <br><br><br><br>
-
+        
+        <!-- Displaying the train schedule -->
         <div class="card">
             <div class="card-header head">
                 Current Train Schedule
@@ -75,10 +82,10 @@
         </div>
 
         <br><br>
-
+        <!-- Adding the train contents -->
         <div class="card">
             <div class="card-header head">
-                Current Train Schedule
+                Add Train
             </div>
             <div class="card-body">
                 <form>

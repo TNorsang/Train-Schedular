@@ -1,5 +1,4 @@
-/* ----------- Global -------------- */
-
+/* ----------- Global Reset -------------- */
 * {
     margin: 0;
     border: 0;
@@ -11,17 +10,37 @@
 
 /* ---------- Header Section ------------- */
 
-header {
-    font-size: 4vh;
-    text-align: center;
-    padding: 4% 0% 18% 0%;
-    color: white;
-    background-color: brown;
-    height: 19vh;
+.headerText {
+    color: black;
 }
+
+header {
+    text-align: center;
+    color: white;
+    background-color: rgb(255, 255, 255);
+    height: 19vh;
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+
+#first {
+ 
+    font-size: 8vh;
+    font-family: 'Kumar One Outline', cursive;
+    margin-top: 3%;
+    font-weight: bold;
+    color: rgb(255, 94, 0);
+}
+
+#logoImage {
+    width: 20%;
+}
+
+/* Current Train Schedule */
 
 .head {
     font-weight: bold;
-    background-color: rgb(27, 120, 207);
+    text-align: center;
+    background-color: rgb(255, 94, 0);
     color: white;
 }
