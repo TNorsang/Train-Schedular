@@ -15,7 +15,7 @@ var config = {
   var database = firebase.database();
 
   function addTrain() {
-    //   event.preventDefault();
+      
 
 // ------ Saves the value inserted in the text box ------  \\
       var trainName = $('#trainName').val().trim();
@@ -35,6 +35,7 @@ var config = {
 
   console.log(addedTrain);
   database.ref().push(addedTrain);
+
 // ------ Clearing the data inside the text boxes ------  \\
   $('#trainName').val('');
   $('#destination').val('');
