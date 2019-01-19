@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>Train Scheduler</title>
+    <!-- Moment JS Link -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
     <!-- Jquery Link -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Local Javascript Link -->
@@ -41,11 +43,20 @@
                 Current Train Schedule
             </div>
             <div class="card-body">
-                <ul class="list-group">
-                    <li class="list-group-item">Train Name</li>
 
                     <li class="list-group-item">
                         <div class="row">
+                            <div class="col" id="trainName">Train Name</div>
+                            <div class="col" id="destination">Destination</div>
+                            <div class="col" id="frequency">Frequency</div>
+                            <div class="col" id="nextArrival">Next Arrival</div>
+                            <div class="col" id="minutesAway">Minutes Away</div>
+
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col">col</div>
                             <div class="col">col</div>
                             <div class="col">col</div>
                             <div class="col">col</div>
@@ -58,6 +69,16 @@
                             <div class="col">col</div>
                             <div class="col">col</div>
                             <div class="col">col</div>
+                            <div class="col">col</div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col">col</div>
+                            <div class="col">col</div>
+                            <div class="col">col</div>
+                            <div class="col">col</div>
+                            <div class="col">col</div>
                         </div>
                     </li>
                     <li class="list-group-item">
@@ -66,10 +87,12 @@
                             <div class="col">col</div>
                             <div class="col">col</div>
                             <div class="col">col</div>
+                            <div class="col">col</div>
                         </div>
                     </li>
                     <li class="list-group-item">
                         <div class="row">
+                            <div class="col">col</div>
                             <div class="col">col</div>
                             <div class="col">col</div>
                             <div class="col">col</div>
@@ -104,6 +127,10 @@
                     <div class="form-group">
                         <label for="TrainName">Frequency (min)</label>
                         <input type="text" class="form-control" id="trainName" placeholder="Add Frequency . . .">
+                    </div>
+
+                    <div class="submitButton">
+                        <input type="submit" class="btn btn-outline-dark submit">
                     </div>
 
                 </form>
