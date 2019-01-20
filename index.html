@@ -29,35 +29,38 @@
     <div class="container">
 
         <!-- The Logo and Head Text -->
-        <div class="headerText" >
-        <header>
-            <img src="assets/images/train.gif" id="logoImage" alt="logo">
-            <p id="first"> Train Scheduler </p>
-        </header>
+        <div class="headerText">
+            <header>
+                <img src="assets/images/train.gif" id="logoImage" alt="logo">
+                <p id="first"> Train Scheduler </p>
+            </header>
         </div>
         <br><br><br><br>
-        
+
         <!-- Displaying the train schedule -->
-        <div class="card">
-            <div class="card-header head">
-                Current Train Schedule
-            </div>
-            <div class="card-body">
 
-                    <li class="list-group-item">
-                        <div class="row">
-                            <div class="col" id="">Train Name</div>
-                            <div class="col" id="">Destination</div>
-                            <div class="col" id="">Frequency</div>
-                            <div class="col" id="">Next Arrival</div>
-                            <div class="col" id="">Minutes Away</div>
-                        </div>
-                    </li>
-                    
-
-                </ul>
+        <div class="col-md bg-light"> 
+                <div class="row">            
+                    <div class="table-responsive">          
+                        <table class="table">
+                          <thead id="header">
+                            <tr>
+                              <th>Train Name</th>
+                              <th>Destination</th>
+                              <th>Frecuency (Minutes):</th>
+                              <th>Next Arrival:</th>
+                              <th>Minutes Away:</th>
+                            </tr>
+                          </thead>
+                          <tbody class="head">
+                            
+                          </tbody>
+                        </table>
+                    </div>
+                </div> 
             </div>
-        </div>
+
+
 
         <br><br>
         <!-- Adding the train contents -->

@@ -47,15 +47,12 @@ $(document).ready(function () {
 
   });
 database.ref('list').on("child_added", function (childSnapshot) {
-    // Log everything that's coming out of snapshot
-    // console.log(childSnapshot.val().name);
-    // console.log(childSnapshot.val().dest);
-    // console.log(childSnapshot.val().freq);
-
+    // saving the value in the variables
     var dTrainName = childSnapshot.val().name;
     var dDestination = childSnapshot.val().dest;
     var dFirstTime = childSnapshot.val().fTime;
     var dFrequency = childSnapshot.val().freq;
+    // Log everything that's coming out of snapshot
     console.log(dTrainName);
     console.log(dDestination);
     console.log(dFirstTime);

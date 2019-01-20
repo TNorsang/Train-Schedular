@@ -36,11 +36,28 @@ header {
     width: 20%;
 }
 
-/* Current Train Schedule */
+/* Current Train Schedule & Add Train Table*/
 
 .head {
     font-weight: bold;
     text-align: center;
     background-color: rgb(255, 94, 0);
     color: white;
+}
+
+/* Train Name | Destination | Frequency | Etc..*/
+#header {
+    text-align: center;
+    color: white;
+    background-color: rgb(2, 0, 3);
+}
+/* size of the font */
+.row {
+    font-size: 1.6vh;
+}
+
+
+/* Submit form positions */
+#trainName {
+    
 }
